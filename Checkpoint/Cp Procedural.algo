@@ -33,7 +33,8 @@ BEGIN
     read(V2[J]);
     END_FOR
      
- dot_product(ps,V1,V2);
+ dot_product
+  (ps,V1,V2);
 
     IF (ps=0) THEN
      write("The two vectors are orthogonal");
